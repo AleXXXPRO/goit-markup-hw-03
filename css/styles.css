@@ -1,0 +1,223 @@
+/*основной цвет текста #212121*/
+/*вторичный цвет текста #757575 */
+/* акцент #2196F3 */
+/* цвет фона #ffffff */
+/* вторичный цвет фона #F5F4FA */
+/* цвет героя и футера #2F303A */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --second-title-text: #ffffff;
+  --accent-color: #2196f3;
+  --primary-fone-color: #ffffff;
+  --second-fone-color: #f5f4fa;
+  --header-text-color: #212121;
+  --btn-color: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-fone-color);
+}
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* -----------Header -------------*/
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link {
+  color: var(--header-text-color);
+}
+.header-link:hover,
+.header-link:focus,
+.current {
+  color: var(--accent-color);
+}
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.auth-nav-mail {
+  color: var(--primary-text-color);
+}
+.auth-nav-mail:hover,
+.auth-nav-mail:focus {
+  color: var(--accent-color);
+}
+.auth-nav-tel {
+  color: var(--primary-text-color);
+}
+.auth-nav-tel:hover,
+.auth-nav-tel:focus {
+  color: var(--accent-color);
+}
+/* -----------Hero -------------*/
+.hero-title {
+  background-color: violet;
+  color: var(--second-title-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn-hero {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--btn-color);
+  background-color: var(--accent-color);
+}
+
+/* Main  */
+.features-after-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.about-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-title-members {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.addres-fiz {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-title-text);
+  background-color: violet;
+}
+.addres-fiz:hover,
+.addres-fiz:focus {
+  color: var(--accent-color);
+}
+.footer-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: violet;
+}
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+.footer-tel {
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: violet;
+}
+/* ----------Страница Portfolio -------------*/
+.button {
+  /* color: inherit; */
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.button:hover,
+.buton:focus {
+  color: var(--btn-color);
+  background-color: var(--accent-color);
+}
+.gallery-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-text-color);
+}
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
