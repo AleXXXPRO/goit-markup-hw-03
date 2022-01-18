@@ -19,35 +19,39 @@
   </head>
   <body>
     <!--Header-->
-    <header>
-      <nav class="header">
-        <a href="/" class="logo"> <span class="logo-accent">Web</span>Studio</a>
-        <ul class="header-nav list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link current">Студия</a>
+    <header class="section-header">
+      <div class="container">
+        <nav class="header">
+          <a href="/" class="logo">
+            <span class="logo-accent">Web</span>Studio</a
+          >
+          <ul class="header-nav list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link current">Студия</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li class="auth-nav-item">
+            <a href="mailto:info@devstudio.com" class="auth-nav-mail"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link">Портфолио</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link">Контакты</a>
+          <li class="auth-nav-item">
+            <a href="tel:+380961111111" class="auth-nav-tel">+380961111111</a>
           </li>
         </ul>
-      </nav>
-      <ul class="auth-nav list">
-        <li class="auth-nav-item">
-          <a href="mailto:info@devstudio.com" class="auth-nav-mail"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="auth-nav-item">
-          <a href="tel:+380961111111" class="auth-nav-tel">+380961111111</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <!--Main-->
     <main>
-      <section class="section-hero">
+      <section class="section section-hero">
         <h1 class="hero-title">
           Эффективные решения <br />
           для вашего бизнеса
@@ -55,7 +59,7 @@
         <button type="button" class="btn-hero">Заказать услугу</button>
       </section>
 
-      <section class="section-features">
+      <section class="section section-features">
         <div class="container">
           <h2 class="features-title visually-hidden">Наши преимущества</h2>
           <ul class="features-list list">
@@ -90,8 +94,8 @@
           </ul>
         </div>
       </section>
-      <section class="section-about">
-        <dir class="container">
+      <section class="section section-about">
+        <div class="container">
           <h2 class="about-title">Чем мы занимаемся</h2>
           <ul class="about-list list">
             <li class="about-item">
@@ -116,9 +120,9 @@
               />
             </li>
           </ul>
-        </dir>
+        </div>
       </section>
-      <section class="section-team">
+      <section class="section section-team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list">
@@ -129,8 +133,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title-members">Игорь Демьяненко</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-text-content">
+                <h3 class="team-title-members">Игорь Демьяненко</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -139,8 +145,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title-members">Ольга Репина</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-text-content">
+                <h3 class="team-title-members">Ольга Репина</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -149,8 +157,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title-members">Николай Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-text-content">
+                <h3 class="team-title-members">Николай Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -159,8 +169,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-title-members">Михаил Ермаков</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-text-content">
+                <h3 class="team-title-members">Михаил Ермаков</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
