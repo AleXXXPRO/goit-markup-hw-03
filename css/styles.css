@@ -443,6 +443,7 @@ a {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  border: 1px solid #eeeeee;
 }
 /* .gallery-item:nth-child(3n) {
   margin-right: 0px;
