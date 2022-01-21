@@ -404,6 +404,7 @@ a {
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
+  padding: 6px 22px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
