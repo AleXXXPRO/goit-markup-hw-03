@@ -65,7 +65,7 @@ a {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid teal;
+  /* outline: 2px solid teal; */
   /* flex-wrap: wrap; */
 }
 /* -----------Header -------------*/
@@ -73,12 +73,13 @@ a {
 .main-header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
   /* justify-content: space-between; */
 }
 .section-header {
   /* display: inline-flex; */
-  margin-top: 24px;
-  margin-bottom: 25px;
+  /* margin-top: 24px;
+  margin-bottom: 25px; */
 }
 .logo {
   display: flex;
@@ -103,8 +104,8 @@ a {
   align-items: center;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  border-bottom: 1px #ececec;
 }
+
 .header-nav {
   display: flex;
 }
@@ -132,7 +133,7 @@ a {
 .auth-nav {
   display: flex;
   margin-left: auto;
-  outline: solid 1px tomato;
+  /* outline: solid 1px tomato; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -159,7 +160,7 @@ a {
 .section-hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  outline: solid 1px tomato;
+  /* outline: solid 1px tomato; */
   text-align: center;
 }
 .hero-title {
@@ -203,9 +204,12 @@ a {
   padding-bottom: 94px;
   outline: 1px solid red;
 }
-/* .section-features {
-  margin-bottom: 94px;
-} */
+
+/* SECTION FEATURES */
+
+.section-features {
+  padding-bottom: 47px;
+}
 .features-list {
   display: flex;
 }
@@ -235,9 +239,11 @@ a {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-/* .section-about {
-  margin-bottom: 94px;
-} */
+/* SECTION ABOUT */
+
+.section-about {
+  padding-top: 47px;
+}
 
 /* .about-list:not(:last-child) {
   margin-right: 30px; */
@@ -380,7 +386,7 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.flex-container {
+/* .flex-container {
   display: flex;
 
   width: 1200px;
@@ -389,7 +395,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid red;
-}
+} */
 
 .button {
   /* color: inherit; */
@@ -452,7 +458,7 @@ a {
   margin-bottom: 0px;
 } */
 .gallery-content {
-  margin-top: 20px;
+  padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
